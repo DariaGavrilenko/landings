@@ -1,0 +1,139 @@
+.footerMainContainer {
+    background: #171819;
+    color: #FFFFFF;
+}
+
+.newsLetterContainer {
+    background: #171819;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100px;
+}
+
+.newsLetterTitle {
+    font-family: 'OpenSans';
+    font-size: 22px;
+    line-height: 26px;
+    letter-spacing: 0.846154px;
+    color: #FFFFFF;
+    margin-right: 70px;
+}
+
+.newsLetterInput {
+    box-sizing: border-box;
+    width: 250px;
+    height: 40px;
+    background: #FFFFFF;
+    border: 1px solid #979797;
+    padding-left: 10px;
+}
+
+.newsLetterButton {
+    width: 150px;
+    height: 40px;
+    background: #00A4E5;
+    font-family: 'OpenSans';
+    font-size: 13px;
+    line-height: 15px;
+    letter-spacing: 0.5px;
+    color: #FFFFFF;
+    border: none;
+}
+
+.footerContactsContainer {
+    display: flex;
+    width: 70%;
+    margin: 0 auto;
+    height: 240px;
+    justify-content: space-between;
+}
+
+.footerContactsTitle {
+    font-family: 'OpenSans';
+    font-size: 11px;
+    line-height: 13px;
+    letter-spacing: 0.846154px;
+    color: #FFFFFF;
+    text-align: start;
+}
+
+.footerContactsInfoContainer p {
+    font-family: 'OpenSans';
+    font-size: 11px;
+    line-height: 19px;
+    letter-spacing: 0.85px;
+    text-align: start;
+    width: 141px;
+    margin-top: 0px;
+}
+
+.footerContactsText {
+    width: 250px;
+    height: 76px;
+    font-family: 'OpenSans';
+    font-size: 11px;
+    line-height: 19px;
+    letter-spacing: 0.85px;
+    color: #FFFFFF;
+    text-align: start;
+}
+
+.footerContactsInfoContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-left: 15px;
+}
+
+.footerContactsLinkContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 76px;
+    font-family: 'OpenSans';
+    font-size: 11px;
+    line-height: 25px;
+    letter-spacing: 0.846154px;
+}
+
+.footerContactsLinksContainer {
+    display: flex;
+    width: 262px;
+    justify-content: space-between;
+}
+
+.footerContactsLinkContainer a {
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+.footerContactsIconContainer {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    width: 87px;
+    margin-top: 25px;
+}
+
+.footerContactsLogo {
+    margin-bottom: 10px;
+    margin-top: 9px;
+}
+
+.footerContactsIcon {
+    width: 13px;
+    height: 13px;
+}
+
+.footerDesign {
+    height: 60px;
+    font-family: 'OpenSans';
+    font-size: 11px;
+    line-height: 13px;
+    letter-spacing: 0.846154px;
+    color: #FFFFFF;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

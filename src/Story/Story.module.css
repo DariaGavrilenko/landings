@@ -1,0 +1,91 @@
+.StoryContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    margin-bottom: 100px;
+}
+
+.StoryMainContainer {
+    width: 70%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.StoryTextContainer {
+    width: 405px;
+    text-align: start;
+}
+
+.StoryImgContainer {
+    display: flex;
+}
+
+.StoryTitle {
+    font-family: 'OpenSans';
+    font-size: 18px;
+    line-height: 21px;
+    letter-spacing: 2.30625px;
+    color: #48555B;
+    margin-top: 60px;
+    margin-bottom: 80px;
+    position: relative;
+}
+
+.StoryTitle::after{
+    content: '';
+    position: absolute;
+    width: 50px;
+    bottom: -10px;
+    left:29%;
+    border-top: 2px solid #00A4E5;
+
+}
+
+.StoryMainText {
+    width: 320px;
+    font-family: 'OpenSans';
+    font-size: 20px;
+    line-height: 23px;
+    letter-spacing: 0.1875px;
+    color: #48555B;
+    margin-bottom: 30px;
+}
+
+.StorySecondText {
+    font-family: 'OpenSans';
+    font-size: 13px;
+    line-height: 23px;
+    letter-spacing: 0.1875px;
+
+    color: #48555B;
+}
+
+.StoryBuildImg,
+.StoryPlanImg,
+.StoryManageImg {
+    font-family: 'OpenSans';
+    font-size: 24px;
+    line-height: 29px;
+    letter-spacing: 0.1875px;
+    color: #FFFFFF;
+    width: 140px;
+    margin-left: 20px;
+    text-align: start;
+    padding: 18px;
+    box-sizing: border-box;
+    font-weight: bold;
+}
+
+.StoryPlanImg{
+    background-image: url('./img/Bitmap3.png');
+}
+
+.StoryManageImg{
+    background-image: url('./img/Bitmap2.png');
+}
+
+.StoryBuildImg{
+    background-image: url('./img/Bitmap.png');
+}

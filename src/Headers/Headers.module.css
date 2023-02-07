@@ -1,0 +1,44 @@
+.headersContainer{
+    background-image: url('./img/bg.png');
+    width: 100%;
+    height: 770px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.headersTitle {
+    font-family: 'BebasNeueBold';
+    font-size: 60px;
+    line-height: 70px;
+    text-align: center;
+    letter-spacing: 5.70937px;
+
+    color: #FFFFFF;
+    width: 890px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.headersText {
+    font-family: 'OpenSans';
+    font-size: 16px;
+    line-height: 19px;
+    display: flex;
+    align-items: flex-end;
+    text-align: center;
+    letter-spacing: 1px;
+    color: #FFFFFF;
+}
+
+.headersSkroll {
+    font-family: 'OpenSans';
+    font-size: 11px;
+    line-height: 13px;
+    letter-spacing: 3.7px;
+    color: #FFFFFF;
+    text-decoration: none;
+}
