@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/landings/static/css/main.47bcd7bd.css",
+    "main.js": "/landings/static/js/main.9c75d051.js",
+    "static/js/787.28525a86.chunk.js": "/landings/static/js/787.28525a86.chunk.js",
+    "static/media/bg.png": "/landings/static/media/bg.0993ad136cbf1434a660.png",
+    "static/media/OpenSans-VariableFont_wdth,wght.ttf": "/landings/static/media/OpenSans-VariableFont_wdth,wght.ceb05254cedfa895b512.ttf",
+    "static/media/Bitmap3.png": "/landings/static/media/Bitmap3.a521e3dc962312784627.png",
+    "static/media/Bitmap.png": "/landings/static/media/Bitmap.5b590932d920b991a365.png",
+    "static/media/Bitmap2.png": "/landings/static/media/Bitmap2.32909c438c34f8f3718e.png",
+    "static/media/ofont.ru_Bebas Neue.ttf": "/landings/static/media/ofont.ru_Bebas Neue.892eeaa308d220d41508.ttf",
+    "static/media/facebook.svg": "/landings/static/media/facebook.53992c915f1427c68c9689e704b916b7.svg",
+    "static/media/google.svg": "/landings/static/media/google.a68f03eabeb195c15cf11e54a367356b.svg",
+    "static/media/twitter.svg": "/landings/static/media/twitter.420a5f6487995fc93a658277dbdc7cf2.svg",
+    "index.html": "/landings/index.html",
+    "main.47bcd7bd.css.map": "/landings/static/css/main.47bcd7bd.css.map",
+    "main.9c75d051.js.map": "/landings/static/js/main.9c75d051.js.map",
+    "787.28525a86.chunk.js.map": "/landings/static/js/787.28525a86.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.47bcd7bd.css",
+    "static/js/main.9c75d051.js"
+  ]
+}
