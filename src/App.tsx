@@ -1,23 +1,24 @@
 import React from 'react';
+import { Route, Routes } from 'react-router-dom';
 import './App.css';
-import { Build } from './Build';
-import { Capabilities } from './Capabilities';
-import { Footer } from './Footer';
-import { Headers } from './Headers';
+import { Konstrukt } from './Konsrukt/Konstrukt';
 import { Nav } from './Nav';
-import { Story } from './Story';
+import { Webovio } from './Webovio/Webovio';
+
 
 
 function App() {
   return (
-    <div className="App">
-     <Headers/>
-      <Nav />
-      <Story />
-      <Capabilities />
-      <Build />
-      <Footer />
+    <>
+    <div>
+      <Nav/>
     </div>
+        <Routes>
+      <Route path="/" element={<Konstrukt />} />
+      <Route path="/webovio" element={<Webovio />} />
+    </Routes>
+    </>
+
   );
 }
 

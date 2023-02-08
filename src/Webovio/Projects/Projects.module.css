@@ -1,0 +1,157 @@
+.awesomeProjectContainer{
+    width: 78%;
+    margin: 150px auto 100px auto;
+    display: flex;
+}
+
+.awesomeProjectTitle{
+    font-family: 'Poppins-Bold';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 54px;
+    color: #4D533C;
+}
+
+.awesomeProjectText{
+    width: 518px;
+    box-sizing: border-box;
+    margin-left: 133px;
+    margin-right: 133px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px; 
+    color: rgba(33, 56, 66, 0.6);
+}
+
+.leftProjectContainer{
+    display: flex;
+    justify-content: start;
+    margin-bottom: 200px;
+    position: relative;
+}
+
+.leftProjectDescriptionContainer{
+    width: 475px;
+    margin-right:133px ;
+    margin-top: 80px;
+    margin-left: 90px;
+}
+
+.ProjectDescriptionTitle{
+    font-family: 'Poppins-Bold';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 48px;
+    color: #4D533C; 
+    
+}
+
+.ProjectDescriptionText{
+    width: 421px;
+    margin-top: 30px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: rgba(33, 56, 66, 0.6);
+    
+}
+
+.ProjectDescriptionLink{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 18px;
+    text-decoration-line: underline;
+    color: #D4D6D4;
+    display: block;
+    margin-top: 90px;
+}
+
+.ProjectDescriptionLink:hover{
+    color: #FFD723;
+}
+
+.ProjectLeftCritiqueContainer {
+    position: absolute;
+    top: 377px;
+    left: 319px;
+    width: 453px;
+    padding-bottom: 30px;
+    box-sizing: border-box;
+    background: #FFFFFF;
+    box-shadow: 50px 50px 100px rgba(0, 0, 0, 0.145947);
+    border-radius: 8px;
+}
+
+.ProjectCritiqueText{
+    font-family: 'Poppins';
+    font-style: italic;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #4D533C;
+    padding: 30px;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.ProjectCritiquePersonContainer{
+display: flex;
+flex-direction: column;
+margin-left: 100px;
+}
+
+.ProjectCritiquePersonImg{
+    position: absolute;
+    left: 11px;
+    bottom: -37px;
+}
+
+.ProjectCritiquePersonName{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    color: #4D533C;
+    
+}
+
+.ProjectCritiquePersonStatus{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    color: #152934;
+}
+.model3dProjectContainer{
+    display: flex;
+    justify-content:end;
+    position: relative;
+    margin-bottom: 200px;
+}
+
+.model3dProjectDescriptionContainer{
+    margin-top: 80px;
+    margin-right: 80px;
+    width: 475px;
+}
+
+.ProjectModel3dCritiqueContainer{
+    position: absolute;
+    bottom: -37px;
+    right: 319px;
+    width: 453px;
+    height: 243px;
+    background: #FFFFFF;
+    box-shadow: 50px 50px 100px rgba(0, 0, 0, 0.145947);
+    border-radius: 8px;
+}

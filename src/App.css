@@ -9,6 +9,27 @@
   src: url('../src/common/fonts/ofont.ru_Bebas\ Neue.ttf');
 }
 
+@font-face {
+  font-family: 'Poppins';
+  src: url('../src/common/fonts/Poppins/Poppins-Light.ttf'), url('../src/common/fonts/Poppins/Poppins-Bold.ttf');
+}
+
+@font-face {
+  font-family: 'Poppins-Bold';
+  src: url('../src/common/fonts/Poppins/Poppins-Bold.ttf');
+}
+
 button{
   cursor: pointer;
 }
+
+.headers{
+  z-index: 20;
+display: flex;
+height: 60px;
+width: 100%;
+background: #FCFCFC;
+box-shadow: 0 2px 10px rgba(109, 109, 109, 0.25), inset 0 1px 0 rgba(255, 255, 255, 0.3);
+justify-content: space-around;
+align-items: center;
+}    

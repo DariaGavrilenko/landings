@@ -1,0 +1,97 @@
+.WhatWeDoContainer {
+    width: 78%;
+    margin: 0 auto;
+    margin-top: 220px;
+    position: relative;
+    padding-bottom: 180px;
+    border-bottom: 1px solid rgba(33, 56, 66, 0.0955529);
+}
+
+.WhatWeDoTextContainer {
+    width: 475px;
+}
+
+.WhatWeDoText {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    color: rgba(77, 83, 60, 0.9);
+}
+
+.WhatWeDoTitle {
+    font-family: 'Poppins-Bold';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 46px;
+    color: #4D533C;
+    margin: 35px 0;
+}
+
+.WhatWeDoLink {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 18px;
+    text-decoration-line: underline;
+    color: #D4D6D4;
+    margin-top: 42px;
+    display: block;
+}
+
+.WhatWeDoCritiqueContainer {
+    box-sizing: border-box;
+    position: absolute;
+    width: 430px;
+    height: 644px;
+    left: 650px;
+    top: -250px;
+    background: #FFFFFF;
+    box-shadow: 0px 100px 100px rgba(0, 0, 0, 0.145947);
+    padding: 224px 8px 20px 40px;
+    z-index: 3;
+}
+
+.WhatWeDoCritiqueText {
+    font-family: 'Poppins';
+    font-style: italic;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 40px;
+    color: #4D533C;
+}
+
+.WhatWeDoCritiquePersonContainer{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    margin-left: 120px;
+    margin-top: 60px;
+}
+
+.WhatWeDoCritiquePersonAvatar{
+    position: absolute;
+    top: -30px;
+    left: -144px;
+}
+
+.WhatWeDoCritiquePersonName {
+    width: 238px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 33px;
+    color: #4D533C;
+}
+.WhatWeDoCritiquePersonStatus{
+    font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 24px;
+color: #152934;
+}

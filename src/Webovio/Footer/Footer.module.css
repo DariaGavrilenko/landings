@@ -1,0 +1,105 @@
+.footerContainer {
+    min-height: 920px;
+    background-image: url('./img/bg.png');
+    padding-top: 310px;
+    box-sizing: border-box;
+}
+
+.footerAddressPhoneContainer {
+    display: flex;
+    width: 78%;
+    margin: 0 auto;
+    margin-bottom: 52px;
+    height: 80px;
+}
+
+.footerAllLinksContainer {
+    display: flex;
+    justify-content: space-between;
+    width: 78%;
+    margin: 0 auto;
+    border-bottom: 1px solid #5D6544;
+    border-top: 1px solid #5D6544;
+    padding: 60px 0;
+}
+
+.footerLinksContainer {
+    width: 160px;
+    display: flex;
+    flex-direction: column;
+}
+
+.footerRightsContainer {
+    display: flex;
+    justify-content: space-between;
+    width: 78%;
+    margin: 0 auto;
+    padding-top: 20px;
+    align-items: center;
+}
+
+.footerPhoneContainer,
+.footerAddressContainer {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 40px;
+    color: #B6C197;
+    margin-right: 128px;
+}
+
+.footerAddressPhoneText {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 40px;
+    color: #FFFFFF;
+    margin-top: 0;
+
+}
+
+.footerLinksContainerTitle {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 38px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+.footerLinkTitle {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 40px;
+    color: #B6C197;
+    text-decoration: none;
+    max-width: 270px;
+}
+
+.footerMailLink {
+    font-family: 'Poppins-Bold';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 38px;
+    color: #FFFFFF;
+}
+
+.footerContactsLinksContainer {
+    border-left: 1px solid #5D6544;
+    padding-left: 110px;
+}
+
+.footerRightsText {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;  
+    color: #B5C096;
+}
