@@ -3,6 +3,7 @@
     background-image: url('./img/bg.png');
     padding-top: 310px;
     box-sizing: border-box;
+    position: relative;
 }
 
 .footerAddressPhoneContainer {
@@ -100,6 +101,45 @@
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
-    line-height: 21px;  
+    line-height: 21px;
     color: #B5C096;
 }
+
+.footerOverBlock {
+    position: absolute;
+    width: 1275px;
+    height: 362px;
+    top: -170px;
+    left: 0;
+    background: #FAFAFA;
+    box-shadow: 50px 130px 100px rgba(0, 0, 0, 0.145947);
+    padding-top: 70px;
+    padding-left: 164px;
+    box-sizing: border-box;
+}
+
+.footerOverBlockTitle {
+    font-family: 'Poppins-Bold';
+    width: 822px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 60px;
+    line-height: 74px;
+    color: #4D533C;
+    margin-top: 0;
+
+}
+
+.footerOverLink {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 18px;
+    text-decoration-line: underline;
+    color: #D4D6D4;
+}
+
+.footerOverLink:hover{
+    color: #FFD723;
+} 

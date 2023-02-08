@@ -22,4 +22,13 @@
     color: #48555B;
     text-decoration: none;
     margin-left: 30px;
+    transition: 0.1s ease-in-out;
+}
+
+.navLink:hover{
+    margin-left: 26px;
+    font-size: 13px;
+    line-height: 15px;
+    transition: 0.3s ease-in-out;
+    border-bottom: 1px solid gray;
 }

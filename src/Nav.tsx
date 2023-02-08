@@ -6,8 +6,8 @@ import React from "react";
 export const Nav = () =>{
     return(
         <div className="headers">
-        <NavLink to={"/webovio"}>Webovio</NavLink>
-        <NavLink to={"/"}>Konstruct</NavLink>
+        <NavLink to={"/webovio"} className="link">Webovio</NavLink>
+        <NavLink to={"/"} className="link">Konstruct</NavLink>
         </div>
     ) 
 }

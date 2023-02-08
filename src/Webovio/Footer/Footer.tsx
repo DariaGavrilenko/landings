@@ -4,6 +4,10 @@ import logo from './img/Logo.png'
 const Footer = () => {
     return (
         <div className={s.footerContainer}>
+            <div className={s.footerOverBlock}>
+                <h1 className={s.footerOverBlockTitle}>Let’s make something amazing together.</h1>
+                <a href="#" className={s.footerOverLink}>LET'S GET STARTED</a>
+            </div>
             <div className={s.footerAddressPhoneContainer}>
                 <div className={s.footerPhoneContainer}>Phone
                     <p className={s.footerAddressPhoneText}>+32 50 31 28 32</p>
