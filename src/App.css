@@ -18,6 +18,16 @@
   src: url('../src/common/fonts/Poppins/Poppins-Bold.ttf');
 }
 
+@font-face {
+  font-family: 'Gilroy';
+  src: url('../src/common/fonts/Gilroy/Gilroy-Light.otf');
+}
+
+@font-face {
+  font-family: 'Gilroy-Bold';
+  src: url('../src/common/fonts/Gilroy/Gilroy-ExtraBold.otf');
+}
+
 button {
   cursor: pointer;
 }

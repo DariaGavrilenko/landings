@@ -1,0 +1,79 @@
+.footerContainer {
+    width: 100%;
+    background-color: #0B1D26;
+    padding-bottom: 100px;
+}
+
+.footerMainContainer {
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.footerLogoContainer {
+    width: 347px;
+}
+
+.footerLogo {
+    color: #FFFFFF;
+    font-family: 'Gilroy-Bold';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 22px;
+    margin-bottom: 30px;
+}
+
+.footerText {
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 32px;
+    color: #FFFFFF;
+}
+
+.footerRhith {
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 32px;
+    color: #FFFFFF;
+    opacity: 0.5;
+    margin-top: 120px;
+}
+
+.footerLinksContainer {
+    display: flex;
+    justify-content: space-between;
+    width: 430px;
+}
+
+.footerBlogLinksContainer,
+.footerMNTNLinksContainer {
+    display: flex;
+    flex-direction: column;
+}
+
+.footerLinksTitle {
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 32px;
+    color: #FBD784;
+}
+
+.footerLink {
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 32px;
+    color: #FFFFFF;
+    text-decoration: none;
+display: block;
+margin-top: 10px;
+}

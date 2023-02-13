@@ -8,6 +8,7 @@ export const Nav = () =>{
         <div className="headers">
         <NavLink to={"/webovio"} className="link">Webovio</NavLink>
         <NavLink to={"/"} className="link">Konstruct</NavLink>
+        <NavLink to={"/MNTN"} className="link">MNTN</NavLink>
         </div>
     ) 
 }
