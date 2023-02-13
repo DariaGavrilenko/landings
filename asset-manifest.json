@@ -1,17 +1,27 @@
 {
   "files": {
-    "main.css": "/landings/static/css/main.6059ae73.css",
-    "main.js": "/landings/static/js/main.80652774.js",
+    "main.css": "/landings/static/css/main.366d6cec.css",
+    "main.js": "/landings/static/js/main.20e097d6.js",
     "static/js/787.28525a86.chunk.js": "/landings/static/js/787.28525a86.chunk.js",
+    "static/media/MG.png": "/landings/static/media/MG.caae080f5757bee42021.png",
+    "static/media/BG Hero.png": "/landings/static/media/BG Hero.45baa1e156ab3adc352b.png",
+    "static/media/VG.png": "/landings/static/media/VG.945adb345098f0e0f3ff.png",
     "static/media/bg.png": "/landings/static/media/bg.663cbed3ef3c543d397b.png",
+    "static/media/HG.png": "/landings/static/media/HG.20a59ace889f54c43452.png",
     "static/media/headImg.png": "/landings/static/media/headImg.9307bfa72857dd7db0bb.png",
+    "static/media/img02.png": "/landings/static/media/img02.b112465354a09f6e8c42.png",
+    "static/media/img03.png": "/landings/static/media/img03.200350457f0e45ac6a59.png",
+    "static/media/img01.png": "/landings/static/media/img01.0eea2e276ee2db1357eb.png",
     "static/media/OpenSans-VariableFont_wdth,wght.ttf": "/landings/static/media/OpenSans-VariableFont_wdth,wght.ceb05254cedfa895b512.ttf",
     "static/media/balenciaga.png": "/landings/static/media/balenciaga.27f297ebbb1425063805.png",
     "static/media/model3d.png": "/landings/static/media/model3d.480b74b792bebe652a74.png",
     "static/media/booking.png": "/landings/static/media/booking.5f5b551a50249deb6e60.png",
+    "static/media/BG Content.png": "/landings/static/media/BG Content.76f3be4abc103849bafb.png",
     "static/media/Poppins-Light.ttf": "/landings/static/media/Poppins-Light.7641a0f76ca9ef6c252c.ttf",
     "static/media/Poppins-Bold.ttf": "/landings/static/media/Poppins-Bold.cdb29a5d7ccf57ff05a3.ttf",
     "static/media/Bitmap3.png": "/landings/static/media/Bitmap3.a521e3dc962312784627.png",
+    "static/media/Gilroy-ExtraBold.otf": "/landings/static/media/Gilroy-ExtraBold.0094146a0505298ed06a.otf",
+    "static/media/Gilroy-Light.otf": "/landings/static/media/Gilroy-Light.cc7ab55d27205bd64001.otf",
     "static/media/Bitmap.png": "/landings/static/media/Bitmap.5b590932d920b991a365.png",
     "static/media/Bitmap2.png": "/landings/static/media/Bitmap2.32909c438c34f8f3718e.png",
     "static/media/ofont.ru_Bebas Neue.ttf": "/landings/static/media/ofont.ru_Bebas Neue.892eeaa308d220d41508.ttf",
@@ -24,12 +34,12 @@
     "static/media/google.svg": "/landings/static/media/google.a68f03eabeb195c15cf11e54a367356b.svg",
     "static/media/twitter.svg": "/landings/static/media/twitter.420a5f6487995fc93a658277dbdc7cf2.svg",
     "index.html": "/landings/index.html",
-    "main.6059ae73.css.map": "/landings/static/css/main.6059ae73.css.map",
-    "main.80652774.js.map": "/landings/static/js/main.80652774.js.map",
+    "main.366d6cec.css.map": "/landings/static/css/main.366d6cec.css.map",
+    "main.20e097d6.js.map": "/landings/static/js/main.20e097d6.js.map",
     "787.28525a86.chunk.js.map": "/landings/static/js/787.28525a86.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.6059ae73.css",
-    "static/js/main.80652774.js"
+    "static/css/main.366d6cec.css",
+    "static/js/main.20e097d6.js"
   ]
 }
