@@ -1,0 +1,37 @@
+.mainContainer {
+    background: #162831;
+}
+
+.navBarContainer {
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 0;
+}
+
+.link {
+    font-family: 'Proxima Nova';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 135%;
+    color: #FFFFFF;
+    text-decoration: none;
+    margin-right: 50px;
+}
+
+.navBarButton{
+width: 155px;
+height: 36px;
+background: #018ABE;
+border-radius: 3px;
+border: none;
+font-family: 'Proxima Nova';
+font-style: normal;
+font-weight: 600;
+font-size: 13px;
+line-height: 140%;
+color: #FFFFFF;
+}

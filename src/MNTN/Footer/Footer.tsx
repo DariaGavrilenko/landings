@@ -1,8 +1,13 @@
+import { MutableRefObject } from 'react'
 import s from './Footer.module.css'
 
-const Footer = () => {
+type FooterPropsType={
+    footerRef:string | MutableRefObject<null>
+}
+
+const Footer = ({footerRef}:FooterPropsType) => {
 return (
-    <div className={s.footerContainer} id='down'>
+    <div className={s.footerContainer} id='down' ref={footerRef}>
         <div className={s.footerMainContainer}>
             <div className={s.footerLogoContainer}>
                 <h1 className={s.footerLogo}>MNTN</h1>

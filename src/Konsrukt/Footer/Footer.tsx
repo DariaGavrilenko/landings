@@ -4,12 +4,17 @@ import facebook from './img/facebook.svg'
 import twitter from './img/twitter.svg'
 import googleIcon from './img/google.svg'
 import logo from './img/projeco-logo.png'
+import { MutableRefObject } from "react"
 
- const Footer = () => {
+type FooterPropsType={
+    footerRef:string | MutableRefObject<null>
+}
+
+ const Footer = ({footerRef}:FooterPropsType) => {
     const text =`Lorem ipsum dolor sit amet, consectetuer adipiscing elit,
      sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat.`
     return (
-        <div id="contacts" className={s.footerMainContainer}>
+        <div id="contacts" className={s.footerMainContainer} ref={footerRef}>
             <NewsLetter />
             <div className={s.footerContactsContainer}>
                 <div className={s.footerContactsInfoContainer}>

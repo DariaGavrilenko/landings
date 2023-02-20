@@ -28,6 +28,21 @@
   src: url('../src/common/fonts/Gilroy/Gilroy-ExtraBold.otf');
 }
 
+@font-face {
+  font-family: 'El Messiri';
+  src: url('../src/common/fonts/El_Messiri/static/ElMessiri-Regular.ttf');
+}
+
+@font-face {
+  font-family: 'Proxima Nova';
+  src: local('Proxima Nova Regular'), local('Proxima-Nova-Regular'),
+      url('../src/common/fonts/ProximaNova-Regular/ProximaNova-Regular.woff2') format('woff2'),
+      url('../src/common/fonts/ProximaNova-Regular/ProximaNova-Regular.woff') format('woff'),
+      url('../src/common/fonts/ProximaNova-Regular/ProximaNova-Regular.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+}
+
 button {
   cursor: pointer;
 }

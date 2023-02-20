@@ -2,8 +2,25 @@ import s from './Headers.module.css'
 import account from './img/Account.png'
 import instagram from './img/Vector.png'
 import twitter from './img/twitter.png'
+import { MutableRefObject } from 'react'
+import { Link } from 'react-router-dom'
 
- const Header = () => {
+type HeaderPropsType={
+    footerRef: MutableRefObject<null>
+}
+
+ const Header = ({footerRef}:HeaderPropsType) => {
+
+  const handleScroll = (ref:any) => {
+    console.log('hey')
+        window.scrollTo({
+          top: ref.offsetTop,
+          left: 0,
+          behavior: "smooth",
+        });
+      };
+      
+
     return (
         <div className={s.HeaderContainer}>
             <div className={s.HeaderBG}></div>
@@ -22,7 +39,7 @@ import twitter from './img/twitter.png'
             <div className={s.HeaderMainTextContainer}>
                 <p className={s.HeaderMainText}>a hiking guid</p>
                 <h1 className={s.HeaderMainTitle}>Be prepared for the Mountains and beyond!</h1>
-                <a href="#down" className={s.HeaderMainLink}>skroll down</a>
+                <Link to="#down" className={s.HeaderMainLink} onClick={()=>{handleScroll(footerRef.current)}}>skroll down</Link>
             </div>
             <div className={s.followUsContainer}>
                 <p className={s.followUsText}>Follow us</p>

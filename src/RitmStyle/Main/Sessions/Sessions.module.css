@@ -1,0 +1,14 @@
+.sessionsContainer {
+    width: 80%;
+    margin: 150px auto;
+}
+
+.sessionsTitle {
+    font-family: 'El Messiri';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 42px;
+    line-height: 140%;
+    text-align: center;
+    color: #FFFFFF;
+}
