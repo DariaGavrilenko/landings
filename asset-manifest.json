@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/landings/static/css/main.52f6020b.css",
-    "main.js": "/landings/static/js/main.f4df059f.js",
+    "main.css": "/landings/static/css/main.378722a0.css",
+    "main.js": "/landings/static/js/main.c3ffcbcc.js",
     "static/js/787.28525a86.chunk.js": "/landings/static/js/787.28525a86.chunk.js",
     "static/media/MG.png": "/landings/static/media/MG.caae080f5757bee42021.png",
     "static/media/BG Hero.png": "/landings/static/media/BG Hero.45baa1e156ab3adc352b.png",
@@ -17,11 +17,15 @@
     "static/media/balenciaga.png": "/landings/static/media/balenciaga.27f297ebbb1425063805.png",
     "static/media/model3d.png": "/landings/static/media/model3d.480b74b792bebe652a74.png",
     "static/media/booking.png": "/landings/static/media/booking.5f5b551a50249deb6e60.png",
+    "static/media/unsplash.png": "/landings/static/media/unsplash.56af878da05bfe046ac6.png",
+    "static/media/certificate.png": "/landings/static/media/certificate.3affdd5e220109c1da44.png",
     "static/media/BG Content.png": "/landings/static/media/BG Content.76f3be4abc103849bafb.png",
     "static/media/Poppins-Light.ttf": "/landings/static/media/Poppins-Light.7641a0f76ca9ef6c252c.ttf",
     "static/media/Poppins-Bold.ttf": "/landings/static/media/Poppins-Bold.cdb29a5d7ccf57ff05a3.ttf",
+    "static/media/aboutImg.png": "/landings/static/media/aboutImg.ff4efe41de8c18525971.png",
     "static/media/ProximaNova-Regular.ttf": "/landings/static/media/ProximaNova-Regular.db098dc77c7aafe660e5.ttf",
     "static/media/ElMessiri-Regular.ttf": "/landings/static/media/ElMessiri-Regular.ba3703c1fe37ccdefb80.ttf",
+    "static/media/unsplashMini.png": "/landings/static/media/unsplashMini.1816c22f31fccee8c9e9.png",
     "static/media/Bitmap3.png": "/landings/static/media/Bitmap3.a521e3dc962312784627.png",
     "static/media/Gilroy-ExtraBold.otf": "/landings/static/media/Gilroy-ExtraBold.0094146a0505298ed06a.otf",
     "static/media/Gilroy-Light.otf": "/landings/static/media/Gilroy-Light.cc7ab55d27205bd64001.otf",
@@ -39,12 +43,12 @@
     "static/media/google.svg": "/landings/static/media/google.a68f03eabeb195c15cf11e54a367356b.svg",
     "static/media/twitter.svg": "/landings/static/media/twitter.420a5f6487995fc93a658277dbdc7cf2.svg",
     "index.html": "/landings/index.html",
-    "main.52f6020b.css.map": "/landings/static/css/main.52f6020b.css.map",
-    "main.f4df059f.js.map": "/landings/static/js/main.f4df059f.js.map",
+    "main.378722a0.css.map": "/landings/static/css/main.378722a0.css.map",
+    "main.c3ffcbcc.js.map": "/landings/static/js/main.c3ffcbcc.js.map",
     "787.28525a86.chunk.js.map": "/landings/static/js/787.28525a86.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.52f6020b.css",
-    "static/js/main.f4df059f.js"
+    "static/css/main.378722a0.css",
+    "static/js/main.c3ffcbcc.js"
   ]
 }
