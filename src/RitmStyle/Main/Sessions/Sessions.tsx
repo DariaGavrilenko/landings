@@ -5,14 +5,14 @@ const Sessions = () => {
         <div className={s.sessionsContainer}>
             <h2 className={s.sessionsTitle}>Сеансы RitmStyle</h2>
             <div className={s.sessionsSortsContainer}>
-                <div>Стандартный RitmStyle</div>
+                <div className={s.sessionsSorts}>Стандартный RitmStyle</div>
                 <div className={s.sessionsSortsMiniContainer}>
-                    <div>RitmStyle для пар</div>
-                    <div>RitmStyle для беременных</div>
+                    <div className={s.sessionsSortsMini}>RitmStyle для пар</div>
+                    <div className={s.sessionsSortsMini}>RitmStyle для беременных</div>
                 </div>
                 <div className={s.sessionsSortsMiniContainer}>
-                    <div>RitmStyle с полным погружением под воду</div>
-                    <div>RitmStyle + красочная подводная фотосессия</div>
+                    <div className={s.sessionsSortsMini}>RitmStyle с полным погружением под воду</div>
+                    <div className={s.sessionsSortsMini}>RitmStyle + красочная подводная фотосессия</div>
                 </div>
             </div>
         </div>

@@ -1,0 +1,110 @@
+.commentsTitle {
+    font-family: 'El Messiri';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 42px;
+    line-height: 140%;
+    text-align: center;
+    color: #FFFFFF;
+    position: relative;
+    width: 336px;
+    margin: 0 auto;
+    margin-bottom: 100px;
+}
+
+.commentsTitle::before {
+    position: absolute;
+    content: '';
+    background-image: url('../img/RectangleBlueLeft.png');
+    width: 28px;
+    height: 14px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    top: 17px;
+    left: -70px;
+}
+
+.commentsTitle::after {
+    position: absolute;
+    content: '';
+    background-image: url('../img/RectangleBlueRight.png');
+    width: 28px;
+    height: 14px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    top: 19px;
+    right: -70px;
+}
+
+.coomentsComponentsContainer {
+    width: 90%;
+    margin: 0 auto;
+}
+
+.commentsWindow {
+    width: 100%;
+    margin: 0 auto;
+    /* display: flex;
+    overflow: hidden; */
+}
+
+/* .commentContainer{
+    margin: 30px;
+min-width: calc((100% - 210px)/ 3);
+max-width: calc((100% - 210px)/ 3);
+} */
+
+.commentatorsNameActive{
+    font-family: 'Proxima Nova';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 140%;
+    color: #FFFFFF;
+    margin-top: 0;
+}
+
+.commentatorsNameNotActive{
+    font-family: 'Proxima Nova';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 17px;
+    line-height: 140%;
+    color: #ffffff6a;
+    margin-top: 0;
+}
+
+.active {
+    background: #018ABE;
+    border-radius: 10px;
+    color: #FFFFFF;
+    font-family: 'Proxima Nova';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 12px;
+    line-height: 140%;
+    padding: 50px;
+    margin-bottom: 50px;
+    padding-top: 20px;
+    width: 320px;
+    height: 240px;
+}
+
+.notActive {
+    color: #FFFFFF;
+    background: #0188be6f;
+    border-radius: 10px;
+    color: #ffffff6a;
+    font-family: 'Proxima Nova';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 9px;
+    line-height: 140%;
+    padding: 40px;
+    padding-top: 20px;
+    margin-bottom: 50px;
+    margin-top: 40px;
+    width: 300px;
+    height: 170px;
+}
+

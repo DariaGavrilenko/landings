@@ -1,3 +1,6 @@
+import { About } from "./Main/About"
+import { Comments } from "./Main/Comments"
+import { Cost } from "./Main/Cost"
 import Header from "./Main/Header/Header"
 import { Sessions } from "./Main/Sessions"
 import NavBar from "./NavBar"
@@ -9,6 +12,9 @@ return(
         <NavBar/>
         <Header/>
         <Sessions/>
+        <Comments/>
+        <About/>
+        <Cost/>
     </div>
 )
 }

@@ -1,0 +1,104 @@
+.costContainer {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.costTitle {
+    font-family: 'El Messiri';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 42px;
+    line-height: 140%;
+    text-align: center;
+    color: #FFFFFF;
+    position: relative;
+    width: 536px;
+    margin: 0 auto;
+    margin-bottom: 100px;
+}
+
+.costTitle::before {
+    position: absolute;
+    content: '';
+    background-image: url('../img/RectangleBlueLeft.png');
+    width: 28px;
+    height: 14px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    top: 17px;
+    left: -70px;
+}
+
+.costTitle::after {
+    position: absolute;
+    content: '';
+    background-image: url('../img/RectangleBlueRight.png');
+    width: 28px;
+    height: 14px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    top: 19px;
+    right: -70px;
+}
+
+.costList {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 416px;
+}
+
+.costList li {
+    list-style-type: none;
+    position: relative;
+    padding-left: 30px;
+    font-family: 'Proxima Nova';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 140%;
+    color: #FFFFFF;
+    margin-bottom: 30px;
+    margin-right: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.costList li::before {
+    display: block;
+    content: '';
+    background-image: url('../img/RectangleBlueLeft.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 18px;
+    height: 9px;
+    position: absolute;
+    top: 5px;
+    left: -20px;
+}
+
+.contentContainer {
+    display: flex;
+    justify-content: space-between;
+}
+
+.certficateContainer {
+    display: flex;
+    flex-direction: column;
+}
+
+.certficateText {
+    font-family: 'El Messiri';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 21px;
+    line-height: 140%;
+    text-align: center;
+    color: #FFFFFF;
+    margin-top: 30px;
+}
+
+.certficateImg {
+    width: 526px;
+    height: 396px;
+}

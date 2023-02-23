@@ -1,0 +1,79 @@
+.aboutContainer {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.aboutTitle {
+    font-family: 'El Messiri';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 42px;
+    line-height: 140%;
+    text-align: center;
+    color: #FFFFFF;
+    position: relative;
+    width: 336px;
+    margin: 0 auto;
+    margin-bottom: 100px;
+    margin-top: 100px;
+}
+
+.aboutTitle::before {
+    position: absolute;
+    content: '';
+    background-image: url('../img/RectangleBlueLeft.png');
+    width: 28px;
+    height: 14px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    top: 17px;
+    left: -70px;
+}
+
+.aboutTitle::after {
+    position: absolute;
+    content: '';
+    background-image: url('../img/RectangleBlueRight.png');
+    width: 28px;
+    height: 14px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    top: 19px;
+    right: -70px;
+}
+
+.contentContainer {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 100px;
+}
+
+.sectionContainer {
+    box-sizing: border-box;
+    width: 470px;
+}
+
+.sectionTitle {
+    font-family: 'Proxima Nova';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 140%;
+    color: #FFFFFF;
+
+}
+
+.sectionText {
+    font-family: 'Proxima Nova';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 140%;
+    color: #FFFFFF;
+
+}
+
+.aboutImg {
+    width: 526px;
+    height: 365px;
+}
